@@ -1,0 +1,294 @@
+﻿
+@{
+    ViewData["Title"] = "Giỏ hàng";
+}
+
+@section Script{
+    @{
+        if (ViewBag.insufficient != null)
+        {
+            <script>alert('@Html.Raw(ViewBag.insufficient)')</script>
+        }
+    }
+}
+
+@section Cart{
+    <script>
+        var CartController = function () {
+            this.initialize = function () {
+                loadData();
+                registerEvents();
+            }
+            
+            function registerEvents() {
+                $('body').on('click', '.btn-plus', function (e) {
+                    e.preventDefault();
+                    const id = $(this).data('id');
+                    const quantity = parseInt($('#txt_quantity_' + id).val()) + 1;
+                    updateCart(id, quantity);
+                });
+                $('body').on('click', '.btn-minus', function (e) {
+                    e.preventDefault();
+                    const id = $(this).data('id');
+                    const quantity = parseInt($('#txt_quantity_' + id).val()) - 1;
+                    updateCart(id, quantity);
+                });
+                $('body').on('click', '.btn-remove', function (e) {
+                    e.preventDefault();
+                    const id = $(this).data('id');
+                    updateCart(id, 0);
+                });
+            }
+
+            function updateCart(id, quanlity) {
+                $.ajax({
+                    type: "POST",
+                    url: '/Cart/UpdateCart',
+                    data: {
+                        productId: id,
+                        quanlity: quanlity
+                    },
+                    success: function (res) {
+                        loadData();
+                    },
+                    error: function (err) {
+                        console.log(err);
+                    }
+                });
+            }
+            
+            function loadData() {
+                $.ajax({
+                    type: "GET",
+                    url: '/Cart/GetListItems',
+                    success: function (res) {
+                        if (res.length === 0)
+                            $('.cart-list').hide();
+                        var html = '';
+                        var total = 0;
+                        var count = 0;//
+                        $.each(res, function (i, item) {
+                            var amount = item.price * item.quanlity;
+                            count += item.quanlity;//
+                            html += "<tr>"
+                                    + "<td class=\"shoping__cart__item\" ><img width=\"120\" src=\"" + $('#iconfig').val() + "/user-content/" + item.image + "\" alt = \"\"><h5>" + item.name + "</h5></td>"
+                                    + "<td class=\"shoping__cart__price\" >" + item.price + "</td>"
+                                        + "<td class=\"shoping__cart__quantity\">"
+                                              + "<div class=\"quantity\" >"
+                                                   + "<div class=\"pro-qty\" >"
+                                                       + "<button style=\"border: none\" class=\"btn-minus\" data-id=\"" + item.productId + "\" type =\"button\"><i style=\"color: red\" class=\"icon_minus_alt\"></i></button>"
+                                                       + "<input type=\"text\" id=\"txt_quantity_" + item.productId + "\"value = \"" + item.quanlity + "\" >"
+                                                       + "<button style=\"border: none\" class=\"btn-plus\" type=\"button\" data-id=\"" + item.productId + "\"><i style=\"color: green\" class=\"icon_plus_alt\"></i></button>"
+                                                  + "</div>"
+                                              + "</div>"
+                                        + "</td>"
+                                        + "<td class=\"shoping__cart__total\" >" + amount + "</td>"
+                                        + "<td class=\"shoping__cart__item__close\" ><span class=\"icon_close btn-remove\" data-id=\"" + item.productId + "\" > </span></td>"
+                                      + "</tr>"
+                            total += amount;
+                        });
+                        $('#number-items').text(count);//
+                        $('#total-items').text(total);//
+                        $('#list-items').html(html);
+                        $('#fee').text(total);
+                        $('#vat').text(0);
+                        $('#list-total').text(total);
+                    }
+                });
+            }
+        }
+    </script>
+    <script>
+        var cartController = new CartController();
+        cartController.initialize();
+    </script>
+}
+<!-- Humberger End -->
+<!-- Header Section Begin -->
+<header class="header">
+    <div class="header__top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="header__top__left">
+                        <ul>
+                            <li><i class="fa fa-envelope"></i>ThucphamOgani@gmail.com</li>
+                            <li>Free Ship trong nội đô thành phố</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="header__top__right">
+                        <div class="header__top__right__language">
+                            @{
+                                if (User.Identity.IsAuthenticated)
+                                {
+                                    <div><a class="txt1" asp-action="update" asp-controller="account">@User.Identity.Name<i class="fa fa-edit"></i></a></div>
+                                }
+                                else
+                                {
+                                    <div>Xin chào!</div>
+                                }
+                            }
+                        </div>
+                        @{
+                            if (!User.Identity.IsAuthenticated)
+                            {
+                                <div class="header__top__right__auth">
+                                    <a asp-controller="Account" asp-action="Login"><i class="fa fa-user"></i> Đăng nhập</a>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="header__top__right__auth">
+                                    <a asp-controller="Account" asp-action="Logout"><i class="fa fa-user"></i> Đăng Xuất</a>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="header__logo">
+                    <a asp-action="Index" asp-controller="Home"><img src="/img/logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-lg-6" style="text-align:center">
+                <nav class="header__menu">
+                    <ul>
+                        <li><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+                        <li class="active"><a asp-controller="Product" asp-action="Index">Sản phẩm</a></li>
+                        <li><a asp-action="GetOrder" asp-controller="Cart">Đơn hàng</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-3">
+                <div class="header__cart">
+                    <ul>
+                        @{
+                            if (User.Identity.IsAuthenticated)
+                            {
+                                <li><a asp-controller="Cart" asp-action="Favorite"><i class="fa fa-heart"></i> <span id="favorite-items"></span></a></li>
+                                <li><a asp-controller="Cart" asp-action="Index"><i class="fa fa-shopping-bag"></i> <span id="number-items"></span></a></li>
+                            }
+                            else
+                            {
+                                <li><a asp-controller="Account" asp-action="Login"><i class="fa fa-heart"></i> <span id="favorite-items"></span></a></li>
+                                <li><a asp-controller="Account" asp-action="Login"><i class="fa fa-shopping-bag"></i> <span id="number-items"></span></a></li>
+                            }
+                        }
+                    </ul>
+                    <div class="header__cart__price">Tổng: <span id="total-items"></span> <span style="color: red">&#8363;</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="humberger__open">
+            <i class="fa fa-bars"></i>
+        </div>
+    </div>
+</header>
+<!-- Header Section End -->
+<!-- Hero Section Begin -->
+<section class="hero hero-normal">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="hero__categories">
+                    <div class="hero__categories__all">
+                        <i class="fa fa-bars"></i>
+                        <span>Danh mục</span>
+                    </div>
+                    <ul>
+                        @foreach (var li in ViewBag.categories)
+                        {
+                            <li><a href="/product/index?categoryId=@li.Value">@li.Text</a></li>
+                        }
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="hero__search">
+                    <div class="hero__search__form">
+                        <form asp-action="Index" asp-controller="Product">
+                            <input type="text" placeholder="Bạn cần tìm gì?" name="keyword">
+                            <button type="submit" class="site-btn">Tìm</button>
+                        </form>
+                    </div>
+                    <div class="hero__search__phone">
+                        <div class="hero__search__phone__icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="hero__search__phone__text">
+                            <h5>+84334190027</h5>
+                            <span>Hỗ trợ 24/7</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Hero Section End -->
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-section set-bg" data-setbg="/img/breadcrumb.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="breadcrumb__text">
+                    <h2>Giỏ hàng</h2>
+                    <div class="breadcrumb__option">
+                        <span>Cửa hàng thực phẩm Ogani</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+<!-- Shoping Cart Section Begin -->
+<section class="shoping-cart spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 cart-list">
+                <div class="shoping__cart__table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="shoping__product">Sản phẩm</th>
+                                <th>Giá</th>
+                                <th>Số lượng</th>
+                                <th>Tổng cộng</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody id="list-items">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+            </div>
+            <div class="col-lg-6">
+                
+            </div>
+            <div class="col-lg-6 cart-list">
+                <div class="shoping__checkout">
+                    <h5>Tổng giỏ hàng</h5>
+                    <ul>
+                        <li>Phí thu <span id="fee">0</span><span>&#8363</span></li>
+                        <li>Phụ thu<span id="vat">0</span><span>&#8363</span></li>
+                        <li>Tổng cộng <span id="list-total">0</span><span>&#8363</span></li>
+                    </ul>
+                    <a asp-action="Order" asp-controller="Cart" class="primary-btn">THANH TOÁN</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

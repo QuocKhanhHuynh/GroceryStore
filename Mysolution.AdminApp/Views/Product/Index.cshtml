@@ -1,0 +1,122 @@
+﻿@using MySolution.Models.Common
+@model PageResult<MySolution.Models.Catalog.Products.ProductViewModel>
+@inject Microsoft.Extensions.Configuration.IConfiguration _configuration
+
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Scripts{
+    @{
+        if (ViewBag.success != null)
+        {
+            <script>alert('@Html.Raw(ViewBag.success)')</script>
+        }
+    }
+}
+
+<div class="container-fluid px-4">
+    <h1 class="mt-4">Danh sách sản phẩm</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Trang chủ</a></li>
+        <li class="breadcrumb-item active">Danh sách sản phẩm</li>
+    </ol>
+    <div class="card mb-4">
+            <div class="card-header">
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    <a class="btn btn-success" asp-action="Create" asp-controller="Product">Tạo mới </a>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <form asp-action="Index" asp-controller="Product" method="get">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <input type="text" value="@ViewBag.Keyword" name="keyword" class="form-control" />
+                            </div>
+                            <div class="col-md-3">
+                                <select name="categoryId" onchange="this.form.submit()" asp-items="@ViewBag.Categories" class="form-control">
+                                    <option>Chọn danh mục</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <button type="submit" class="btn btn-primary">Tìm</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="table table-responsive">
+                <table id="datatablesSimple">
+                    <thead>
+                        <tr>
+                            <th>
+                                Mã sản phẩm
+                            </th>
+                            <th>
+                                Ảnh
+                            </th>
+                            <th>
+                                Tên
+                            </th>
+                            <th>
+                                Giá bán
+                            </th>
+                            <th>
+                                Số lượng
+                            </th>
+                            <th>
+                                Nhóm
+                            </th>
+                            <th>
+                                Sản phẩm nổi bật
+                            </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            if (Model.TotalRecords != 0)
+                            {
+                                foreach (var item in Model.Items)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Id)
+                                        </td>
+                                        <td>
+                                            <img width="120" src=@($"{_configuration["BaseAddress"]}/user-content/{item.ThumbnailImage}") alt="">
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Name)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Price)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Stock)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Category)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.IsFeatured)
+                                        </td>
+                                        <td>
+                                            @Html.ActionLink("Sửa", "Update", new { id=item.Id  }) |
+                                            @Html.ActionLink("Chi tiết", "Details", new { id=item.Id }) |
+                                            @Html.ActionLink("Xóa", "Delete", new { id=item.Id })
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+            @await Component.InvokeAsync("Pager",Model)
+        </div>
+    </div>
+</div>

@@ -1,0 +1,113 @@
+﻿@using MySolution.Models.Common
+@model PageResult<MySolution.Models.Catalog.Orders.OrderViewModel>
+@{
+    ViewData["Title"] = "Đơn hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Scripts{
+    @{
+        if (ViewBag.Success != null)
+        {
+            <script>alert('@Html.Raw(ViewBag.Success)')</script>
+            ViewBag.Success = null;
+        }
+    }
+}
+
+<div class="container-fluid px-4">
+    <h1 class="mt-4">Danh sách đơn hàng</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Trang chủ</a></li>
+        <li class="breadcrumb-item active">Danh sách sản phẩm</li>
+    </ol>
+    <div class="card mb-4">
+        <div class="card-header">
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    <a class="btn btn-success" asp-action="Create" asp-controller="Product">Tạo mới </a>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="col-md-6 col-xs-12">
+                <form asp-action="Index" asp-controller="Home" method="get">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <input placeholder="Nhập Id Order" type="text" value="@ViewBag.OrderId" name="orderId" class="form-control" />
+                        </div>
+                        <div class="col-md-3">
+                            <select name="status" onchange="this.form.submit()" asp-items="@ViewBag.Status" class="form-control">
+                                <option>Chọn danh mục</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <button type="submit" class="btn btn-primary">Tìm</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="table table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                Mã đơn hàng
+                            </th>
+                            <th>
+                                Thời gian đặt
+                            </th>
+                            <td>
+                                Người nhận
+                            </td>
+                            <td>
+                                Địa chỉ
+                            </td>
+                            <th>
+                                Trạng thái
+                            </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Items)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Id)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Date)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Address)
+                                </td>
+                                @{
+                                    if (item.Status == 0)
+                                    {
+                                        <td>Đang chờ duyệt</td>
+                                    }
+                                    else if (item.Status == 1)
+                                    {
+                                        <td>Đang xử lí</td>
+                                    }
+                                    else if (item.Status == 2)
+                                    {
+                                        <td>Đang vận chuyển</td>
+                                    }
+                                }
+                                <td>
+                                    @Html.ActionLink("Chi tiết", "Details", new {  id=item.Id, status=item.Status })
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            @await Component.InvokeAsync("Pager",Model)
+        </div>
+    </div>
+</div>

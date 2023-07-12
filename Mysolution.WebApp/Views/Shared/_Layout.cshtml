@@ -1,0 +1,200 @@
+﻿@inject Microsoft.Extensions.Configuration.IConfiguration Configuration;
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ogani Template">
+    <meta name="keywords" content="Ogani, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>@ViewData["Title"]</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+    <link rel="icon" type="/image/png" href="images/icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <link rel="stylesheet" type="text/css" href="/vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="/vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="/vendor/animsition/css/animsition.min.css">
+    <link rel="stylesheet" type="text/css" href="/vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="/vendor/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" type="text/css" href="/css/util.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+<body>
+    <input type="hidden" id="iconfig" value="@Configuration["BaseAddress"]" />
+    @RenderBody()
+    <footer class="footer spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__about__logo">
+                            <a href="./index.html"><img src="/img/logo.png" alt=""></a>
+                        </div>
+                        <ul>
+                            <li>Địa chỉ: Ninh Kiều, Cần Thơ</li>
+                            <li>Phone: +84333190027</li>
+                            <li>Email: Cuahangthucpham@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+                    <div class="footer__widget">
+                        <h6>Đường dẫn đầy đủ</h6>
+                        <ul>
+                            <li><a href="~/Home/Index">Trang chủ</a></li>
+                            <li><a href="~/Product/Index">Sản phẩm</a></li>
+                            <li><a href="~/Account/Register">Đăng ký tài khoản</a></li>
+                            <li><a href="~/Account/Login">Đăng nhập</a></li>
+                            <li><a href="~/Account/Logout">Đăng xuất</a></li>
+                            <li><a href="~/Account/ForgetPassword">Quên mật khẩu</a></li>
+                        </ul>
+                        <ul>
+                            @{
+                                if (User.Identity.IsAuthenticated)
+                                {
+                                    <li><a href="~/Account/Update">Cập nhật tài khoản</a></li>
+                                    <li><a href="~/Account/ChangePassword">Đổi mật khẩu</a></li>
+                                    <li><a href="~/Cart/GetOrder">Đơn hàng</a></li>
+                                    <li><a href="~/Cart/Index">Giỏ hàng</a></li>
+                                    <li><a href="~/Cart/Favorite">Sản phẩm yêu thích</a></li>
+                                }
+                                else
+                                {
+                                    <li><a href="~/Account/Login">Cập nhật tài khoản</a></li>
+                                    <li><a href="~/Account/Login">Đổi mật khẩu</a></li>
+                                    <li><a href="~/Account/Login">Đơn hàng</a></li>
+                                    <li><a href="~/Account/Login">Giỏ hàng</a></li>
+                                    <li><a href="~/Account/Login">Sản phẩm yêu thích</a></li>
+                                }
+                            }
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="footer__widget">
+                        <div class="footer__widget__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer__copyright">
+                        <div class="footer__copyright__text">
+                            <p>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;<script>document.write(new Date().getFullYear());</script> Của hàng được cấp phép hoạt động và đạt chứng nhận an toàn vệ sinh thực phẩm <i class="fa fa-heart" aria-hidden="true"></i> 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+    <!-- Js Plugins -->
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.nice-select.min.js"></script>
+    <script src="/js/jquery-ui.min.js"></script>
+    <script src="/js/jquery.slicknav.js"></script>
+    <script src="/js/mixitup.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script>
+        var SiteController = function () {
+                this.initialize = function () {
+                    regsiterEvents();
+                    loadCart();
+                }
+                function loadCart() {
+                    $.ajax({
+                        type: "GET",
+                        url: '/Cart/GetListItems',
+                        success: function (res) {
+                            var total = 0;
+                            var count = 0;
+                            $.each(res, function (i, item) {
+                                var amount = item.price * item.quanlity;
+                                total += amount;
+                                count += item.quanlity;
+                            });
+                            $('#number-items').text(count);
+                            $('#total-items').text(total);
+                        }
+                    });
+                    $.ajax({
+                        type: "GET",
+                        url: '/Cart/GetListFavoriteItems',
+                        success: function (res) {
+                            $('#favorite-items').text(res.length);
+                        }
+                    });
+                }
+                function regsiterEvents(){
+                    $('body').on('click', '.btn-add-cart', function (e) {
+                        e.preventDefault();
+                        const id = $(this).data('id');
+                        $.ajax({
+                            type: "POST",
+                            url: '/Cart/AddToCart',
+                            data: {
+                                productId: id
+                            },
+                            success: function (res) {
+                                loadCart();
+                            },
+                            error: function (err) {
+                                console.log(err);
+                            }
+                        });
+                    });
+                    $('body').on('click', '.btn-add-favorite', function (e) {
+                        e.preventDefault();
+                        const id = $(this).data('id');
+                        $.ajax({
+                            type: "POST",
+                            url: '/Cart/AddToFavorite',
+                            data: {
+                                productId: id
+                            },
+                            success: function (res) {
+                                loadCart();
+                            },
+                            error: function (err) {
+                                console.log(err);
+                            }
+                        });
+                    });
+                }
+            }
+    </script>
+    <script>
+        var site = new SiteController();
+        site.initialize();
+    </script>
+    @RenderSection("Script",required:false);
+    @RenderSection("Cart",required:false);
+</body>
+</html>

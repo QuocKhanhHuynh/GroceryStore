@@ -1,0 +1,45 @@
+D:\ASP.NET core\project\MySolution\MySolution.ViewModels\bin\Debug\net7.0\MySolution.ViewModels.deps.json
+D:\ASP.NET core\project\MySolution\MySolution.ViewModels\bin\Debug\net7.0\MySolution.ViewModels.dll
+D:\ASP.NET core\project\MySolution\MySolution.ViewModels\bin\Debug\net7.0\MySolution.ViewModels.pdb
+D:\ASP.NET core\project\MySolution\MySolution.ViewModels\bin\Debug\net7.0\MySolution.Data.dll
+D:\ASP.NET core\project\MySolution\MySolution.ViewModels\bin\Debug\net7.0\MySolution.Data.pdb
+D:\ASP.NET core\project\MySolution\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.csproj.AssemblyReference.cache
+D:\ASP.NET core\project\MySolution\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET core\project\MySolution\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.AssemblyInfoInputs.cache
+D:\ASP.NET core\project\MySolution\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.AssemblyInfo.cs
+D:\ASP.NET core\project\MySolution\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.csproj.CoreCompileInputs.cache
+D:\ASP.NET core\project\MySolution\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.csproj.CopyComplete
+D:\ASP.NET core\project\MySolution\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.dll
+D:\ASP.NET core\project\MySolution\MySolution.ViewModels\obj\Debug\net7.0\refint\MySolution.ViewModels.dll
+D:\ASP.NET core\project\MySolution\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.pdb
+D:\ASP.NET core\project\MySolution\MySolution.ViewModels\obj\Debug\net7.0\ref\MySolution.ViewModels.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\bin\Debug\net7.0\MySolution.ViewModels.deps.json
+D:\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\bin\Debug\net7.0\MySolution.ViewModels.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\bin\Debug\net7.0\MySolution.ViewModels.pdb
+D:\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\bin\Debug\net7.0\MySolution.Data.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\bin\Debug\net7.0\MySolution.Data.pdb
+D:\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.csproj.AssemblyReference.cache
+D:\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.AssemblyInfoInputs.cache
+D:\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.AssemblyInfo.cs
+D:\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.csproj.CoreCompileInputs.cache
+D:\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.csproj.CopyComplete
+D:\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\obj\Debug\net7.0\refint\MySolution.ViewModels.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.pdb
+D:\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\obj\Debug\net7.0\ref\MySolution.ViewModels.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\bin\Debug\net7.0\MySolution.ViewModels.deps.json
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\bin\Debug\net7.0\MySolution.ViewModels.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\bin\Debug\net7.0\MySolution.ViewModels.pdb
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\bin\Debug\net7.0\MySolution.Data.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\bin\Debug\net7.0\MySolution.Data.pdb
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.csproj.AssemblyReference.cache
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.AssemblyInfoInputs.cache
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.AssemblyInfo.cs
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.csproj.CoreCompileInputs.cache
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.csproj.CopyComplete
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\obj\Debug\net7.0\refint\MySolution.ViewModels.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\obj\Debug\net7.0\MySolution.ViewModels.pdb
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.ViewModels\obj\Debug\net7.0\ref\MySolution.ViewModels.dll

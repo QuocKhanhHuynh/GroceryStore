@@ -1,0 +1,348 @@
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.csproj.AssemblyReference.cache
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.AssemblyInfoInputs.cache
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.AssemblyInfo.cs
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.csproj.CoreCompileInputs.cache
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.MvcApplicationPartsAssemblyInfo.cache
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\appsettings.Development.json
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\appsettings.json
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.staticwebassets.runtime.json
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.exe
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.deps.json
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.runtimeconfig.json
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.pdb
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Azure.Core.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Azure.Identity.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\System.Memory.Data.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\MySolution.Application.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\MySolution.Data.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\MySolution.Utilities.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\MySolution.ViewModels.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\MySolution.Application.pdb
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\MySolution.Data.pdb
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\MySolution.Utilities.pdb
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\MySolution.ViewModels.pdb
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets\msbuild.MySolution.BackendApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets\msbuild.build.MySolution.BackendApi.props
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MySolution.BackendApi.props
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MySolution.BackendApi.props
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets.pack.json
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets.build.json
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets.development.json
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\obj\Debug\net7.0\scopedcss\bundle\MySolution.BackendApi.styles.css
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.csproj.CopyComplete
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\obj\Debug\net7.0\refint\MySolution.BackendApi.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.pdb
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.genruntimeconfig.cache
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\obj\Debug\net7.0\ref\MySolution.BackendApi.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ASP.NET core\project\MySolution\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.MvcApplicationPartsAssemblyInfo.cs
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\appsettings.Development.json
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\appsettings.json
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.staticwebassets.runtime.json
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.exe
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.deps.json
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.runtimeconfig.json
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.pdb
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Azure.Core.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Azure.Identity.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\FluentValidation.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\System.Memory.Data.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.Application.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.Data.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.Utilities.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.ViewModels.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.Application.pdb
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.Data.pdb
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.Utilities.pdb
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.ViewModels.pdb
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.csproj.AssemblyReference.cache
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.AssemblyInfoInputs.cache
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.AssemblyInfo.cs
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.csproj.CoreCompileInputs.cache
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.MvcApplicationPartsAssemblyInfo.cs
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.MvcApplicationPartsAssemblyInfo.cache
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets\msbuild.MySolution.BackendApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets\msbuild.build.MySolution.BackendApi.props
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MySolution.BackendApi.props
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MySolution.BackendApi.props
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets.pack.json
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets.build.json
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets.development.json
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\scopedcss\bundle\MySolution.BackendApi.styles.css
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.csproj.CopyComplete
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\refint\MySolution.BackendApi.dll
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.pdb
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.genruntimeconfig.cache
+D:\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\ref\MySolution.BackendApi.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\appsettings.Development.json
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\appsettings.json
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.staticwebassets.runtime.json
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.exe
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.deps.json
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.runtimeconfig.json
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.pdb
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Azure.Core.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Azure.Identity.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\FluentValidation.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\System.Memory.Data.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.Application.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.Data.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.Utilities.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.ViewModels.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.Application.pdb
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.Data.pdb
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.Utilities.pdb
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\bin\Debug\net7.0\MySolution.ViewModels.pdb
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.csproj.AssemblyReference.cache
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.AssemblyInfoInputs.cache
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.AssemblyInfo.cs
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.csproj.CoreCompileInputs.cache
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.MvcApplicationPartsAssemblyInfo.cs
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.MvcApplicationPartsAssemblyInfo.cache
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets\msbuild.MySolution.BackendApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets\msbuild.build.MySolution.BackendApi.props
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MySolution.BackendApi.props
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MySolution.BackendApi.props
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets.pack.json
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets.build.json
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets.development.json
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\scopedcss\bundle\MySolution.BackendApi.styles.css
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.csproj.CopyComplete
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\refint\MySolution.BackendApi.dll
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.pdb
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.genruntimeconfig.cache
+D:\KN\ASP.NET core\project\MySolution - Copy\MySolution.BackendApi\obj\Debug\net7.0\ref\MySolution.BackendApi.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.csproj.AssemblyReference.cache
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.AssemblyInfoInputs.cache
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.AssemblyInfo.cs
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.csproj.CoreCompileInputs.cache
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.MvcApplicationPartsAssemblyInfo.cache
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\obj\Debug\net7.0\refint\MySolution.BackendApi.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.pdb
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.MvcApplicationPartsAssemblyInfo.cs
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\appsettings.json
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\appsettings.Development.json
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.staticwebassets.runtime.json
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.exe
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.deps.json
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.runtimeconfig.json
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\MySolution.BackendApi.pdb
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Azure.Core.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Azure.Identity.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\FluentValidation.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\System.Memory.Data.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\MySolution.Models.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\MySolution.Models.pdb
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets\msbuild.MySolution.BackendApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets\msbuild.build.MySolution.BackendApi.props
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MySolution.BackendApi.props
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MySolution.BackendApi.props
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets.pack.json
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets.build.json
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\obj\Debug\net7.0\staticwebassets.development.json
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\obj\Debug\net7.0\scopedcss\bundle\MySolution.BackendApi.styles.css
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.csproj.CopyComplete
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\obj\Debug\net7.0\MySolution.BackendApi.genruntimeconfig.cache
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\obj\Debug\net7.0\ref\MySolution.BackendApi.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Humanizer.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\System.CodeDom.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.BackendApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll

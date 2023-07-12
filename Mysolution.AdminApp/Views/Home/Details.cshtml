@@ -1,0 +1,98 @@
+﻿@model List<MySolution.Models.Catalog.Orders.OrderDetailViewModel>
+@inject Microsoft.Extensions.Configuration.IConfiguration Configuration;
+
+@{
+    ViewData["Title"] = "Chi tiết hóa đơn";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid px-4">
+    <h1 class="mt-4">Danh sách sản phẩm</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Trang chủ</a></li>
+        <li class="breadcrumb-item active">Danh sách sản phẩm</li>
+    </ol>
+    <div class="card mb-4">
+        <div class="card-header">
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    @{
+                        if(ViewBag.Status == 0)
+                        {
+                            <a class="btn btn-success" href="~/Home/UpdateStatus?id=@ViewBag.Id&status=@(ViewBag.Status + 1)">Xử lí đơn hàng </a>
+                        }
+                        else if(ViewBag.Status == 1)
+                        {
+                            <a class="btn btn-success" href="~/Home/UpdateStatus?id=@ViewBag.Id&status=@(ViewBag.Status + 1)">Vận chuyển đơn hàng </a>
+                        }
+                        else if(ViewBag.Status == 2)
+                        {
+                            <a class="btn btn-success" href="~/Home/UpdateStatus?id=@ViewBag.Id&status=@(ViewBag.Status + 1)">Nhận hàng thành công</a>
+                        }
+                    }
+                </div>
+                <div class="col-md-6 col-xs-12">
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="table table-responsive">
+                @{
+                    int total = 0;
+                }
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                Ảnh
+                            </th>
+                            <th>
+                                Sản phẩm
+                            </th>
+                            <td>
+                                Giá
+                            </td>
+                            <td>Số lượng
+                            </td>
+                            <th>
+                                Tổng
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <img width="120" src="@(Configuration["BaseAddress"] + "/user-content/" + item.Image)">
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Price)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Quanlity)
+                                </td>
+                                <td>
+                                    @(item.Quanlity * item.Price)
+                                </td>
+                                @{
+                                    total += item.Quanlity * item.Price;
+                                }
+                            </tr>
+                        }
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td style="color:red">Thanh toán: <span>@total</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

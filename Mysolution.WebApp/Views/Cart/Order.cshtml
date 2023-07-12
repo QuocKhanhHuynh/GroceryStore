@@ -1,0 +1,232 @@
+﻿@using Newtonsoft.Json;
+@model MySolution.Models.Catalog.Orders.CheckoutRequest
+@inject IHttpContextAccessor _httpContextAccessor
+@{
+    ViewData["Title"] = "Thanh toán";
+}
+
+<!-- Humberger End -->
+<!-- Header Section Begin -->
+<header class="header">
+    <div class="header__top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="header__top__left">
+                        <ul>
+                            <li><i class="fa fa-envelope"></i>ThucphamOgani@gmail.com</li>
+                            <li>Free Ship trong nội đô thành phố</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="header__top__right">
+                        <div class="header__top__right__language">
+                            @{
+                                if (User.Identity.IsAuthenticated)
+                                {
+                                    <div><a class="txt1" asp-action="update" asp-controller="account">@User.Identity.Name<i class="fa fa-edit"></i></a></div>
+                                }
+                                else
+                                {
+                                    <div>Xin chào!</div>
+                                }
+                            }
+                        </div>
+                        @{
+                            if (!User.Identity.IsAuthenticated)
+                            {
+                                <div class="header__top__right__auth">
+                                    <a asp-controller="Account" asp-action="Login"><i class="fa fa-user"></i> Đăng nhập</a>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="header__top__right__auth">
+                                    <a asp-controller="Account" asp-action="Logout"><i class="fa fa-user"></i> Đăng Xuất</a>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="header__logo">
+                    <a asp-action="Index" asp-controller="Home"><img src="/img/logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-lg-6" style="text-align:center">
+                <nav class="header__menu">
+                    <ul>
+                        <li><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+                        <li class="active"><a asp-controller="Product" asp-action="Index">Sản phẩm</a></li>
+                        <li><a asp-action="GetOrder" asp-controller="Cart">Đơn hàng</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-3">
+                <div class="header__cart">
+                    <ul>
+                        @{
+                            if (User.Identity.IsAuthenticated)
+                            {
+                                <li><a asp-controller="Cart" asp-action="Favorite"><i class="fa fa-heart"></i> <span id="favorite-items"></span></a></li>
+                                <li><a asp-controller="Cart" asp-action="Index"><i class="fa fa-shopping-bag"></i> <span id="number-items"></span></a></li>
+                            }
+                            else
+                            {
+                                <li><a asp-controller="Account" asp-action="Login"><i class="fa fa-heart"></i> <span id="favorite-items"></span></a></li>
+                                <li><a asp-controller="Account" asp-action="Login"><i class="fa fa-shopping-bag"></i> <span id="number-items"></span></a></li>
+                            }
+                        }
+                    </ul>
+                    <div class="header__cart__price">Tổng: <span id="total-items"></span> <span style="color: red">&#8363;</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="humberger__open">
+            <i class="fa fa-bars"></i>
+        </div>
+    </div>
+</header>
+<!-- Header Section End -->
+<!-- Hero Section Begin -->
+<section class="hero hero-normal">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="hero__categories">
+                    <div class="hero__categories__all">
+                        <i class="fa fa-bars"></i>
+                        <span>Danh mục</span>
+                    </div>
+                    <ul>
+                        @foreach (var li in ViewBag.categories)
+                        {
+                            <li><a href="/product/index?categoryId=@li.Value">@li.Text</a></li>
+                        }
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="hero__search">
+                    <div class="hero__search__form">
+                        <form asp-action="Index" asp-controller="Product">
+                            <input type="text" placeholder="Bạn cần tìm gì?" name="keyword">
+                            <button type="submit" class="site-btn">Tìm</button>
+                        </form>
+                    </div>
+                    <div class="hero__search__phone">
+                        <div class="hero__search__phone__icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="hero__search__phone__text">
+                            <h5>+84334190027</h5>
+                            <span>Hỗ trợ 24/7</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Hero Section End -->
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-section set-bg" data-setbg="/img/breadcrumb.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="breadcrumb__text">
+                    <h2>Đơn hàng</h2>
+                    <div class="breadcrumb__option">
+                        <span>Cửa hàng thực phẩm Ogani</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+<!-- Checkout Section Begin -->
+<section class="checkout spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+
+            </div>
+        </div>
+        <div class="checkout__form">
+            <h4>Hóa đơn chi tiết</h4>
+            <form asp-action="Order" asp-controller="Cart" method="post">
+                <div asp-validation-summary="ModelOnly"></div>
+                <input type="hidden" asp-for="UserId" value="@(User.Claims.First(x => x.Type == "id").ToString().Remove(0,4))" />
+                <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="checkout__input">
+                                    <p>Họ<span>*</span></p>
+                                    <input asp-for="LastName" type="text">
+                                    <span asp-validation-for="LastName"></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="checkout__input">
+                                    <p>Tên<span>*</span></p>
+                                    <input asp-for="FirstName" type="text">
+                                    <span asp-validation-for="FirstName"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkout__input">
+                            <p>Địa chỉ<span>*</span></p>
+                            <input type="text" asp-for="Address" placeholder="Địa chỉ nhận hàng" class="checkout__input__add">
+                            <span asp-validation-for="Address"></span>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="checkout__input">
+                                    <p>Số điện thoại<span>*</span></p>
+                                    <input asp-for="PhoneNumber" type="text">
+                                    <span asp-validation-for="PhoneNumber"></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="checkout__input">
+                                    <p>Email<span>*</span></p>
+                                    <input asp-for="Email" type="text">
+                                    <span asp-validation-for="Email"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="checkout__order">
+                            <h4>Thanh toán của bạn</h4>
+                            <div class="checkout__order__products">Products <span>Total</span></div>
+                            <ul>
+                                @{
+                                    var session = _httpContextAccessor.HttpContext.Session.GetString("Cart");
+                                    var CartItems = JsonConvert.DeserializeObject<List<CartItemViewModel>>(session);
+                                    var total = 0;
+                                    foreach (var item in CartItems)
+                                    {
+                                        <li>@item.Name (@item.Quanlity) <span>@(item.Price * item.Quanlity)</span></li>
+                                        total += item.Price * item.Quanlity;
+                                    }
+                                }
+                            </ul>
+                            <div class="checkout__order__total">Tổng cộng <span>@total</span></div>
+                            <button type="submit" class="site-btn">Thanh toán</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- Checkout Section End -->

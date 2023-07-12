@@ -1,0 +1,227 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\KN\\ASP.NET core\\project\\Ogani\\Mysolution.AdminApp\\Mysolution.AdminApp.csproj": {}
+  },
+  "projects": {
+    "D:\\KN\\ASP.NET core\\project\\Ogani\\Mysolution.AdminApp\\Mysolution.AdminApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\KN\\ASP.NET core\\project\\Ogani\\Mysolution.AdminApp\\Mysolution.AdminApp.csproj",
+        "projectName": "Mysolution.AdminApp",
+        "projectPath": "D:\\KN\\ASP.NET core\\project\\Ogani\\Mysolution.AdminApp\\Mysolution.AdminApp.csproj",
+        "packagesPath": "C:\\Users\\Khanh\\.nuget\\packages\\",
+        "outputPath": "D:\\KN\\ASP.NET core\\project\\Ogani\\Mysolution.AdminApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Khanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\KN\\ASP.NET core\\project\\Ogani\\Mysolution.ApiIntergration\\Mysolution.ApiIntergration.csproj": {
+                "projectPath": "D:\\KN\\ASP.NET core\\project\\Ogani\\Mysolution.ApiIntergration\\Mysolution.ApiIntergration.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.IdentityModel.Logging": {
+              "target": "Package",
+              "version": "[6.31.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.31.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.31.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\KN\\ASP.NET core\\project\\Ogani\\Mysolution.ApiIntergration\\Mysolution.ApiIntergration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\KN\\ASP.NET core\\project\\Ogani\\Mysolution.ApiIntergration\\Mysolution.ApiIntergration.csproj",
+        "projectName": "Mysolution.ApiIntergration",
+        "projectPath": "D:\\KN\\ASP.NET core\\project\\Ogani\\Mysolution.ApiIntergration\\Mysolution.ApiIntergration.csproj",
+        "packagesPath": "C:\\Users\\Khanh\\.nuget\\packages\\",
+        "outputPath": "D:\\KN\\ASP.NET core\\project\\Ogani\\Mysolution.ApiIntergration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Khanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\KN\\ASP.NET core\\project\\Ogani\\MySolution.ViewModels\\MySolution.Models.csproj": {
+                "projectPath": "D:\\KN\\ASP.NET core\\project\\Ogani\\MySolution.ViewModels\\MySolution.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\KN\\ASP.NET core\\project\\Ogani\\MySolution.ViewModels\\MySolution.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\KN\\ASP.NET core\\project\\Ogani\\MySolution.ViewModels\\MySolution.Models.csproj",
+        "projectName": "MySolution.Models",
+        "projectPath": "D:\\KN\\ASP.NET core\\project\\Ogani\\MySolution.ViewModels\\MySolution.Models.csproj",
+        "packagesPath": "C:\\Users\\Khanh\\.nuget\\packages\\",
+        "outputPath": "D:\\KN\\ASP.NET core\\project\\Ogani\\MySolution.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Khanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

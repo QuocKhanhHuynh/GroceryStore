@@ -1,0 +1,15 @@
+D:\KN\ASP.NET core\project\Ogani\Mysolution.ApiIntergration\obj\Debug\net7.0\Mysolution.ApiIntergration.csproj.AssemblyReference.cache
+D:\KN\ASP.NET core\project\Ogani\Mysolution.ApiIntergration\obj\Debug\net7.0\Mysolution.ApiIntergration.GeneratedMSBuildEditorConfig.editorconfig
+D:\KN\ASP.NET core\project\Ogani\Mysolution.ApiIntergration\obj\Debug\net7.0\Mysolution.ApiIntergration.AssemblyInfoInputs.cache
+D:\KN\ASP.NET core\project\Ogani\Mysolution.ApiIntergration\obj\Debug\net7.0\Mysolution.ApiIntergration.AssemblyInfo.cs
+D:\KN\ASP.NET core\project\Ogani\Mysolution.ApiIntergration\obj\Debug\net7.0\Mysolution.ApiIntergration.csproj.CoreCompileInputs.cache
+D:\KN\ASP.NET core\project\Ogani\Mysolution.ApiIntergration\bin\Debug\net7.0\Mysolution.ApiIntergration.deps.json
+D:\KN\ASP.NET core\project\Ogani\Mysolution.ApiIntergration\bin\Debug\net7.0\Mysolution.ApiIntergration.dll
+D:\KN\ASP.NET core\project\Ogani\Mysolution.ApiIntergration\bin\Debug\net7.0\Mysolution.ApiIntergration.pdb
+D:\KN\ASP.NET core\project\Ogani\Mysolution.ApiIntergration\bin\Debug\net7.0\MySolution.Models.dll
+D:\KN\ASP.NET core\project\Ogani\Mysolution.ApiIntergration\bin\Debug\net7.0\MySolution.Models.pdb
+D:\KN\ASP.NET core\project\Ogani\Mysolution.ApiIntergration\obj\Debug\net7.0\Mysolution.ApiIntergration.csproj.CopyComplete
+D:\KN\ASP.NET core\project\Ogani\Mysolution.ApiIntergration\obj\Debug\net7.0\Mysolution.ApiIntergration.dll
+D:\KN\ASP.NET core\project\Ogani\Mysolution.ApiIntergration\obj\Debug\net7.0\refint\Mysolution.ApiIntergration.dll
+D:\KN\ASP.NET core\project\Ogani\Mysolution.ApiIntergration\obj\Debug\net7.0\Mysolution.ApiIntergration.pdb
+D:\KN\ASP.NET core\project\Ogani\Mysolution.ApiIntergration\obj\Debug\net7.0\ref\Mysolution.ApiIntergration.dll

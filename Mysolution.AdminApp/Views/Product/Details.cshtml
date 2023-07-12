@@ -1,0 +1,87 @@
+﻿@model MySolution.Models.Catalog.Products.ProductViewModel
+@inject Microsoft.Extensions.Configuration.IConfiguration _configuration
+
+
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Scripts{
+    <script src="https://cdn.ckeditor.com/ckeditor5/36.0.0/classic/ckeditor.js"></script>
+    <script>
+        ClassicEditor.create(document.querySelector('#txt_description'), {}).then(editor => {
+            window.editor = editor;
+        }).catch(err => {
+            console.error(err.stack)
+        });
+    </script>
+}
+
+<div class="container-fluid px-4">
+    <h1 class="mt-4">Chi tiết sản phẩ</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Trang chủ</a></li>
+        <li class="breadcrumb-item active">Chi tiết sản phẩm</li>
+    </ol>
+    <div class="card mb-4">
+        <div class="card-header">
+            <a class="btn btn-success" asp-action="Index" asp-controller="Product">Về danh sách </a>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Name)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Name)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Price)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Price)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Stock)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Stock)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.ViewCount)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.ViewCount)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Descrestion)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.Raw(Model.Descrestion)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Category)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Category)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.ThumbnailImage)
+                </dt>
+                <dd class="col-sm-10">
+                    <img width="150" src=@($"{_configuration["BaseAddress"]}/user-content/{Model.ThumbnailImage}") alt="">
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.IsFeatured)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.IsFeatured)
+                </dd>
+            </dl>
+        </div>
+        <div class="card-header">
+            <a class="btn btn-success" href="~/Product/Update?id=@(Model.Id)">Cập nhật sản phẩm </a>
+        </div>
+    </div>
+</div>

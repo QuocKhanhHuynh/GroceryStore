@@ -1,0 +1,12 @@
+D:\KN\ASP.NET core\project\Ogani\MySolution.ViewModels\obj\Debug\net7.0\MySolution.Models.csproj.AssemblyReference.cache
+D:\KN\ASP.NET core\project\Ogani\MySolution.ViewModels\obj\Debug\net7.0\MySolution.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\KN\ASP.NET core\project\Ogani\MySolution.ViewModels\obj\Debug\net7.0\MySolution.Models.AssemblyInfoInputs.cache
+D:\KN\ASP.NET core\project\Ogani\MySolution.ViewModels\obj\Debug\net7.0\MySolution.Models.AssemblyInfo.cs
+D:\KN\ASP.NET core\project\Ogani\MySolution.ViewModels\obj\Debug\net7.0\MySolution.Models.csproj.CoreCompileInputs.cache
+D:\KN\ASP.NET core\project\Ogani\MySolution.ViewModels\bin\Debug\net7.0\MySolution.Models.deps.json
+D:\KN\ASP.NET core\project\Ogani\MySolution.ViewModels\bin\Debug\net7.0\MySolution.Models.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.ViewModels\bin\Debug\net7.0\MySolution.Models.pdb
+D:\KN\ASP.NET core\project\Ogani\MySolution.ViewModels\obj\Debug\net7.0\MySolution.Models.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.ViewModels\obj\Debug\net7.0\refint\MySolution.Models.dll
+D:\KN\ASP.NET core\project\Ogani\MySolution.ViewModels\obj\Debug\net7.0\MySolution.Models.pdb
+D:\KN\ASP.NET core\project\Ogani\MySolution.ViewModels\obj\Debug\net7.0\ref\MySolution.Models.dll
